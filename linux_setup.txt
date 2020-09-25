@@ -1,0 +1,50 @@
+Linux OS Configuration
+Blake Cole
+11 SEP 2018
+
+APT:
+1. $ sudo apt update
+2. $ sudo apt upgrade
+3. $ sudo apt install emacs
+4. $ sudo apt install subversion
+
+CONFIG:
+1. Update ~/.bashrc
+  a) Define shell path
+  b) Define aliases
+  c) Set command line prompt
+2. Link .bash_profile to .bashrc
+2. Update .emacs file
+
+SSH:
+1. Follow instructions on GitHub to create SSH-key
+   https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+2. Add SSH-Key to GitHub
+   https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+GIT:
+1. Install git:
+   $ sudo apt install git
+2. Clone repositories:
+   $ git clone git@github.mit.edu:blerk/moos-ivp-blerk.git
+   $ git clone git@github.mit.edu:blerk/netcdf_hycom.git
+   $ git clone git@github.mit.edu:blerk/latex.git
+   $ git clone git@github.mit.edu:lamss/lamss-internal.git
+
+MOOS-IvP:
+1. Download repository:
+   $ svn co https://oceanai.mit.edu/svn/moos-ivp-aro/trunk/ moos-ivp
+2. Update repository:
+   $ cd moos-ivp
+   $ svn update
+3. Install required packages:
+   $ sudo apt-get install  g++  cmake  xterm 
+   $ sudo apt-get install  libfltk1.3-dev  freeglut3-dev  libpng12-dev  libjpeg-dev 
+   $ sudo apt-get install  libxft-dev  libxinerama-dev   libtiff5-dev 
+4. Build software:
+   $ cd moos-ivp
+   $ ./build-moos.sh
+     (let it build)
+   $ ./build-ivp.sh
+     (let it build)
+
