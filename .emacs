@@ -1,3 +1,4 @@
+
 ;; Blake's Incredible .emacs Init File
 
 ;; Set default mode as text mode (if no extension like .cpp)
@@ -28,9 +29,9 @@
               (tool-bar-lines . 0)
 	      (vertical-scroll-bars . right)
               (width . 80) ; chars
-              (height . 66) ; lines
-              (left . 50)
-              (top . 10)))
+              (height . 52) ; lines
+              (left . 8)
+              (top . 42)))
       
       (setq default-frame-alist
             '(
