@@ -1,0 +1,8 @@
+vscode (code) - done
+zsh - done
+ohmyzsh - done
+docker - done
+chrome/ium - done
+setup github ssh - done
+
+clone and build missim and gama
