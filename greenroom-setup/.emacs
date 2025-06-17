@@ -26,7 +26,7 @@
       '((tool-bar-lines       . 0)          ; no toolbar
         (vertical-scroll-bars . right)      ; scrollbar on the right
         (width                . 80)         ; 80 chars wide
-        (height               . 70)         ; 60 lines tall
+        (height               . 60)         ; 60 lines tall
         (left                 . 0)          ; top-left corner
         (top                  . 0)))
 ;; Apply same settings to every new frame

@@ -107,3 +107,6 @@ source $ZSH/oh-my-zsh.sh
 if [[ -f ~/.bash_aliases ]]; then
   source ~/.bash_aliases
 fi
+
+# Necessary for Greenroom Robotics authorization
+export API_TOKEN_GITHUB=

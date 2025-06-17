@@ -1,8 +1,34 @@
-vscode (code) - done
-zsh - done
-ohmyzsh - done
-docker - done
-chrome/ium - done
-setup github ssh - done
+Linux OS Configuration
+Blake Cole
+17 JUN 2025
 
-clone and build missim and gama
+Greenroom Robotics Requirements:
+  * vscode (code) w/ extensions
+      1. ms-vscode-remote.remote-containers
+      2. hediet.vscode-drawio
+      3. github.copilot
+      4. ms-python.vscode-pylance
+      5. ms-python.python
+  * zsh + ohmyzsh
+  * docker engine + docker compose
+  * nvidia drivers + nvidia container toolkit
+  * chromium
+  * git + git-lfs (and setup github ssh)
+  * clone and build missim and gama
+  * tailscale (requires token)
+  * coda (requires invite)
+  * shortcut (requires invite)
+  * employment hero (requires invite)
+  * xero (requires invite)
+
+Personal Nice-To-Have Packages:
+  * emacs             (sudo apt install emacs)
+  * outlook-for-linux (sudo snap install outlook-for-linux --edge)
+  * teams-for-linux   (sudo snap install teams-for-linux)
+  * gnome-screenshot  (sudo apt install gnome-screenshot)
+
+Keyboard Shortcuts:
+  * Area Screenshot             : Alt+4 (gnome-screenshot -a)
+  * Full Screenshot             : Alt+3 (gnome-screenshot)
+  * Window Screenshot           : Alt+2 (gnome-screenshot -w -b)
+  * Interactive Menu Screenshot : Alt+1 (gnome-screenshot -i)
