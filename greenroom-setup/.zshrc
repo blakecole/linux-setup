@@ -109,4 +109,4 @@ if [[ -f ~/.bash_aliases ]]; then
 fi
 
 # Necessary for Greenroom Robotics authorization
-export API_TOKEN_GITHUB=
+export API_TOKEN_GITHUB= <COPY_YOUR_PAT_HERE>
