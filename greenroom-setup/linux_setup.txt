@@ -32,3 +32,16 @@ Keyboard Shortcuts:
   * Full Screenshot             : Alt+3 (gnome-screenshot)
   * Window Screenshot           : Alt+2 (gnome-screenshot -w -b)
   * Interactive Menu Screenshot : Alt+1 (gnome-screenshot -i)
+
+Edit default 'Oh My Zsh' theme to show full path:
+https://www.mathiashove.com/blog/2024/showing-absolute-path-in-oh-my-zsh
+  1) Copy existing theme into custom themes, keep the same name.
+     > cp $ZSH/themes/robbyrussell.zsh-theme $ZSH_CUSTOM/themes/
+
+  2) Open the copied theme
+     > emacs $ZSH_CUSTOM/themes/robbyrussell.zsh-theme
+
+  3) Replace %c (current directory) with %~ (full path from home)
+
+  4) Source .zshrc
+    > source ~/.zshrc
