@@ -33,7 +33,7 @@ Keyboard Shortcuts:
   * Window Screenshot           : Alt+2 (gnome-screenshot -w -b)
   * Interactive Menu Screenshot : Alt+1 (gnome-screenshot -i)
 
-Edit default 'Oh My Zsh' theme to show full path:
+Edit 'Oh My Zsh' Theme:
 https://www.mathiashove.com/blog/2024/showing-absolute-path-in-oh-my-zsh
   1) Copy existing theme into custom themes, keep the same name.
      > cp $ZSH/themes/robbyrussell.zsh-theme $ZSH_CUSTOM/themes/
@@ -45,3 +45,9 @@ https://www.mathiashove.com/blog/2024/showing-absolute-path-in-oh-my-zsh
 
   4) Source .zshrc
     > source ~/.zshrc
+
+Edit Terminal Preferences:
+  1) Adjust default terminal window size
+     a) Open Preferences.
+     b) Select your Profile → “Text” tab → toggle Custom terminal size.
+     c) Enter Columns (e.g. 120) and Rows (e.g. 30).
